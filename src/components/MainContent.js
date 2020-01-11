@@ -117,8 +117,13 @@ const MainContent = ({ values, setValues }) => {
           <div className={classes.optionsContainer}>
             {Object.keys(connectorTypes).map(con => {
               const current = connectorTypes[con];
-              const disabled = current === connector;
+              let disabled = current === connector;
               const name = connectorNames[con];
+
+              // disable this if MM is not installed
+              if (name === connectorNames['Injected'] && !window.ethereum) {
+                disabled = true;
+              }
 
               return (
                 <Grid item sm={4} key={con}>

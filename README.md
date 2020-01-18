@@ -1,6 +1,7 @@
 # ![Terminal-logo](https://storage.googleapis.com/terminal-assets/images/text-black-robot-light-face-black-horizontal.png)
 
 # Terminal SDK + Web3-React Demo App
+
 This shows code examples in how to use terminal sdk with https://github.com/NoahZinsmeister/web3-react
 
 ## Setup Guide
@@ -10,14 +11,14 @@ This shows code examples in how to use terminal sdk with https://github.com/Noah
 Clone this repository with the following command:
 
 ```
-git clone git@github.com:Terminal-Systems/web3-react-logging-demo.git
+git clone https://github.com/Terminal-Systems/web3-react-v6-logging-example.git
 ```
 
 ### Step 2
 
 Install dependencies:
 
-yarn: 
+yarn:
 
 ```js
 yarn install
@@ -31,7 +32,5 @@ npm install
 
 ### Step 3
 
-Create an account on [Terminal](https://terminal.co/).  Follow the
-guides available in the [Terminal Docs](https://docs.terminal.co/logs-analytics/create-an-api-key) to locate your account API key and Project ID.  Once acquired, follow the steps in [this article](http://google.com) to edit the credentials in this dapp to test Terminal logs.
-
-
+Create an account on [Terminal](https://terminal.co/). Follow the
+guides available in the [Terminal Docs](https://docs.terminal.co/logs-analytics/create-an-api-key) to locate your account API key and Project ID. Once acquired, follow the steps in [this article](http://google.com) to edit the credentials in this dapp to test Terminal logs.

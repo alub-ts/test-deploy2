@@ -30,7 +30,7 @@ export const setSource = provider => {
   if (provider.isTorus) return SourceType.Torus;
   if (provider.isPortis) return SourceType.Portis;
   if (provider.isWalletConnect) return 'WalletConnect';
-  if (provider.isFortmatic) return SourceType.isFortmatic;
+  if (provider.isFortmatic) return SourceType.Fortmatic;
 
   return SourceType.Web3ProviderEngine;
 };
